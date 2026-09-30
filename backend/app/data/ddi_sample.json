@@ -1,0 +1,86 @@
+[
+  {
+    "drug_a": "warfarin",
+    "drug_b": "aspirin",
+    "severity": "critical",
+    "mechanism": "Additive antiplatelet/anticoagulant effect increases bleeding risk; aspirin also displaces warfarin from plasma proteins, raising free warfarin levels.",
+    "recommendation": "Avoid combination if possible. If unavoidable, use the lowest effective aspirin dose and monitor INR closely."
+  },
+  {
+    "drug_a": "warfarin",
+    "drug_b": "ibuprofen",
+    "severity": "critical",
+    "mechanism": "NSAIDs impair platelet function and irritate the GI mucosa, compounding warfarin's anticoagulant effect and raising GI bleed risk.",
+    "recommendation": "Avoid NSAIDs in patients on warfarin; consider paracetamol for analgesia instead."
+  },
+  {
+    "drug_a": "sildenafil",
+    "drug_b": "nitroglycerin",
+    "severity": "critical",
+    "mechanism": "Both drugs increase cGMP-mediated vasodilation; combined use can cause profound, life-threatening hypotension.",
+    "recommendation": "Absolute contraindication. Do not co-prescribe under any circumstance."
+  },
+  {
+    "drug_a": "simvastatin",
+    "drug_b": "clarithromycin",
+    "severity": "critical",
+    "mechanism": "Clarithromycin strongly inhibits CYP3A4, the enzyme that metabolizes simvastatin, causing statin accumulation and raising rhabdomyolysis risk.",
+    "recommendation": "Suspend simvastatin during the clarithromycin course, or switch to an antibiotic that does not inhibit CYP3A4."
+  },
+  {
+    "drug_a": "fluoxetine",
+    "drug_b": "tramadol",
+    "severity": "high",
+    "mechanism": "Both increase synaptic serotonin; combined use raises the risk of serotonin syndrome.",
+    "recommendation": "Use with caution; monitor for agitation, hyperthermia, and clonus. Consider an alternative analgesic."
+  },
+  {
+    "drug_a": "enalapril",
+    "drug_b": "spironolactone",
+    "severity": "high",
+    "mechanism": "ACE inhibitors reduce aldosterone-driven potassium excretion; spironolactone directly retains potassium, together risking hyperkalemia.",
+    "recommendation": "Monitor serum potassium regularly; adjust doses if levels rise above normal range."
+  },
+  {
+    "drug_a": "metformin",
+    "drug_b": "iodinated_contrast",
+    "severity": "high",
+    "mechanism": "Contrast-induced nephropathy can impair renal clearance of metformin, increasing the risk of lactic acidosis.",
+    "recommendation": "Hold metformin before and for 48 hours after contrast administration; confirm renal function before restarting."
+  },
+  {
+    "drug_a": "digoxin",
+    "drug_b": "furosemide",
+    "severity": "high",
+    "mechanism": "Furosemide-induced hypokalemia increases myocardial sensitivity to digoxin, raising the risk of arrhythmia and digoxin toxicity.",
+    "recommendation": "Monitor serum potassium and digoxin levels; supplement potassium as needed."
+  },
+  {
+    "drug_a": "phenelzine",
+    "drug_b": "sertraline",
+    "severity": "critical",
+    "mechanism": "Combining an MAOI with an SSRI causes severe serotonin accumulation, risking life-threatening serotonin syndrome.",
+    "recommendation": "Contraindicated. Require a minimum 2-week washout period between the two drug classes."
+  },
+  {
+    "drug_a": "amiodarone",
+    "drug_b": "simvastatin",
+    "severity": "high",
+    "mechanism": "Amiodarone inhibits CYP3A4 metabolism of simvastatin, raising statin plasma levels and myopathy/rhabdomyolysis risk.",
+    "recommendation": "Limit simvastatin dose per label guidance when co-prescribed with amiodarone, or use a statin not metabolized by CYP3A4."
+  },
+  {
+    "drug_a": "methotrexate",
+    "drug_b": "ibuprofen",
+    "severity": "high",
+    "mechanism": "NSAIDs reduce renal clearance of methotrexate, increasing plasma levels and risk of methotrexate toxicity.",
+    "recommendation": "Avoid NSAIDs with high-dose methotrexate; use with caution and monitor levels at low doses."
+  },
+  {
+    "drug_a": "clopidogrel",
+    "drug_b": "omeprazole",
+    "severity": "moderate",
+    "mechanism": "Omeprazole inhibits CYP2C19, reducing conversion of clopidogrel to its active metabolite and blunting its antiplatelet effect.",
+    "recommendation": "Consider pantoprazole (weaker CYP2C19 inhibition) as an alternative gastroprotective agent."
+  }
+]
